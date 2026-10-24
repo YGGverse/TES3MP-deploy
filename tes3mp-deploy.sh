@@ -840,7 +840,24 @@ if [ $MAKE_PACKAGE ]; then
    )
 
   LIBRARIES_EXTRA=( \
+    "libaom.so.0" \
+    "libavcodec.so.58" \
+    "libavformat.so.58" \
+    "libavutil.so.56" \
+    "libbluray.so.2" \
+    "libcodec2.so.0.8.1" \
+    "libcrystalhd.so.3" \
+    "libpcre.so.3" \
     "libpng16.so" \
+    "libshine.so.3" \
+    "libsndio.so.7.0" \
+    "libssh-gcrypt.so.4"
+    "libswresample.so.3" \
+    "libswscale.so.5" \
+    "libvpx.so.5" \
+    "libwebp.so.6" \
+    "libx264.so.155" \
+    "libx265.so.165"
   )
 
   LIBRARIES_SERVER=( \
