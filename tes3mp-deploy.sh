@@ -497,7 +497,7 @@ press ENTER to continue"
   # Pull software via git
   echo -e "\n>> Downloading software"
   ! [ -e "$CODE" ] && git clone -b "${TARGET_COMMIT:-master}" https://github.com/TES3MP/TES3MP.git "$CODE"
-  ! [ -e "$DEPENDENCIES"/raknet ] && git clone -b ipv6 https://github.com/oooo-ps/CrabNet "$DEPENDENCIES"/raknet
+  ! [ -e "$DEPENDENCIES"/raknet ] && git clone -b mycelium-mtu https://github.com/oooo-ps/CrabNet "$DEPENDENCIES"/raknet
   ! [ -e "$KEEPERS"/CoreScripts ] && git clone -b "${TARGET_COMMIT:-master}" https://github.com/TES3MP/CoreScripts.git "$KEEPERS"/CoreScripts
 
   # Copy static server and client configs
